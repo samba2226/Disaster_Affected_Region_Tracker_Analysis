@@ -59,7 +59,7 @@ Foreign key ensures referential integrity.
 
 Performed in Python using Pandas.
 
-✔ Handling Invalid Dates
+* Handling Invalid Dates
 
 Used pd.to_datetime(errors='coerce')
 
@@ -67,7 +67,7 @@ Converted invalid values to NaT
 
 Applied forward fill and backward fill where required
 
-✔ Handling Missing Values
+* Handling Missing Values
 
 Affected people → replaced with 0
 
@@ -75,7 +75,7 @@ Economic loss → replaced with 0
 
 Population → filled with median
 
-✔ Data Type Validation
+* Data Type Validation
 
 Used .dtypes
 
@@ -92,7 +92,7 @@ Aggregated total affected people
 
 Sorted descending
 
-📊 Visualization: Bar Chart
+ Visualization: Bar Chart
 Purpose: Identify most vulnerable regions
 
 5.2 Severity Distribution by Disaster Type
@@ -121,7 +121,7 @@ Scatter plot
 
 Compared affected_people with economic_loss_musd
 
-📊 Visualization: Scatter Plot
+ Visualization: Scatter Plot
 Purpose: Analyze correlation between human and economic impact
 
 5.5 Region-wise Disaster Frequency Heatmap
@@ -130,10 +130,10 @@ Created pivot table: region × disaster_type
 
 Used imshow() with colorbar
 
-🔥 Visualization: Heatmap
+ Visualization: Heatmap
 Purpose: Identify disaster concentration zones
 
-** Technologies Used**
+**Technologies Used**
 Technology	Purpose
 MySQL	Database storage
 SQL	Querying and aggregation
@@ -143,13 +143,13 @@ Matplotlib	Visualization
 SQLAlchemy	Database connection
 ** Key Learnings**
 
-✔ Database normalization
-✔ Foreign key relationships
-✔ Data cleaning and preprocessing
-✔ Handling Pandas warnings
-✔ Time-series resampling
-✔ Data aggregation and grouping
-✔ Building analytical dashboards
+* Database normalization
+* Foreign key relationships
+* Data cleaning and preprocessing
+*  Handling Pandas warnings
+* Time-series resampling
+* Data aggregation and grouping
+* Building analytical dashboards
 
 **Challenges Faced**
 
